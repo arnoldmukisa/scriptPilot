@@ -1,47 +1,20 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Exclude node modules
+node_modules/
 
-# Folder config file
-Desktop.ini
+# Exclude build folders
+www/build-*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Exclude temporary files
+.babelrc
+.firebaserc
+firebase.json
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Exclude log files
+*.log
+npm-debug.log.*
 
-# Windows shortcuts
-*.lnk
+# Exclude zip files
+*.zip
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Exclude database backup
+database-backup.json
